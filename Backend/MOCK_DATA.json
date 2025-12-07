@@ -1,0 +1,810 @@
+[
+  {
+    "id": 1,
+    "product_name": "Bamboo Utensil Holder",
+    "product_description": "Stylish holder for organizing cooking utensils.",
+    "price": 14.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 368
+  },
+  {
+    "id": 2,
+    "product_name": "Savory Pumpkin Soup",
+    "product_description": "Creamy pumpkin soup with spices",
+    "price": 3.89,
+    "product_category": "Food - Soups",
+    "quantity_in_stock": 176
+  },
+  {
+    "id": 3,
+    "product_name": "Pocket Blanket",
+    "product_description": "Compact, waterproof blanket for picnics and events.",
+    "price": 24.99,
+    "product_category": "Outdoor",
+    "quantity_in_stock": 316
+  },
+  {
+    "id": 4,
+    "product_name": "Silicone Baking Molds",
+    "product_description": "Set of flexible molds for baking cakes and pastries.",
+    "price": 15.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 690
+  },
+  {
+    "id": 5,
+    "product_name": "Indestructible Dog Toy",
+    "product_description": "Durable toy designed for heavy chewers.",
+    "price": 15.99,
+    "product_category": "Pets",
+    "quantity_in_stock": 452
+  },
+  {
+    "id": 6,
+    "product_name": "Personal Security Alarm Keychain",
+    "product_description": "Handy keychain that emits a loud alarm for personal safety.",
+    "price": 10.99,
+    "product_category": "Safety",
+    "quantity_in_stock": 490
+  },
+  {
+    "id": 7,
+    "product_name": "Kale Caesar Salad Kit",
+    "product_description": "Fresh kale with Caesar dressing and croutons.",
+    "price": 5.99,
+    "product_category": "Food - Salads",
+    "quantity_in_stock": 89
+  },
+  {
+    "id": 8,
+    "product_name": "Measuring Cups Set",
+    "product_description": "Stackable measuring cups made from stainless steel.",
+    "price": 19.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 583
+  },
+  {
+    "id": 9,
+    "product_name": "Reusable Silicone Food Storage Bags",
+    "product_description": "Eco-friendly bags for storing food without plastic waste.",
+    "price": 19.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 424
+  },
+  {
+    "id": 10,
+    "product_name": "Home Cleaning Robot",
+    "product_description": "Automated cleaning robot for hassle-free home maintenance.",
+    "price": 249.99,
+    "product_category": "Home Appliances",
+    "quantity_in_stock": 83
+  },
+  {
+    "id": 11,
+    "product_name": "Electronic Drum Kit",
+    "product_description": "Compact electronic drum kit for musicians of all levels.",
+    "price": 359.99,
+    "product_category": "Music",
+    "quantity_in_stock": 127
+  },
+  {
+    "id": 12,
+    "product_name": "Indoor Grill",
+    "product_description": "Electric indoor grill for quick meals.",
+    "price": 59.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 394
+  },
+  {
+    "id": 13,
+    "product_name": "Granola Bars",
+    "product_description": "Crispy and chewy granola bars, perfect for on-the-go.",
+    "price": 4.99,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 853
+  },
+  {
+    "id": 14,
+    "product_name": "Blueberry Oatmeal Cups",
+    "product_description": "Instant oatmeal cups with blueberries for an easy breakfast.",
+    "price": 3.29,
+    "product_category": "Food - Breakfast",
+    "quantity_in_stock": 529
+  },
+  {
+    "id": 15,
+    "product_name": "Fleece Throw Blanket",
+    "product_description": "Super soft fleece blanket, perfect for coziness.",
+    "price": 29.99,
+    "product_category": "Home",
+    "quantity_in_stock": 618
+  },
+  {
+    "id": 16,
+    "product_name": "Tomato Basil Pasta Sauce",
+    "product_description": "Rich and flavorful pasta sauce made with ripe tomatoes and basil.",
+    "price": 3.99,
+    "product_category": "Food - Sauces",
+    "quantity_in_stock": 822
+  },
+  {
+    "id": 17,
+    "product_name": "Electric Knife",
+    "product_description": "Cordless electric knife for effortless slicing.",
+    "price": 39.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 18
+  },
+  {
+    "id": 18,
+    "product_name": "Dog Training Whistle",
+    "product_description": "High-frequency whistle for training your dog effectively.",
+    "price": 8.99,
+    "product_category": "Pets",
+    "quantity_in_stock": 554
+  },
+  {
+    "id": 19,
+    "product_name": "Fruit and Nut Medley",
+    "product_description": "A healthy mix of assorted dried fruits and nuts for snacking.",
+    "price": 5.99,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 105
+  },
+  {
+    "id": 20,
+    "product_name": "Water-Resistant Bluetooth Speaker",
+    "product_description": "Durable speaker designed for outdoor use with water resistance.",
+    "price": 59.99,
+    "product_category": "Audio",
+    "quantity_in_stock": 627
+  },
+  {
+    "id": 21,
+    "product_name": "Nutty Trail Mix",
+    "product_description": "A blend of nuts, seeds, and dried fruits for snacking.",
+    "price": 4.29,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 786
+  },
+  {
+    "id": 22,
+    "product_name": "Fishing Rod",
+    "product_description": "Lightweight fishing rod suitable for beginners.",
+    "price": 49.99,
+    "product_category": "Outdoor",
+    "quantity_in_stock": 949
+  },
+  {
+    "id": 23,
+    "product_name": "Rainbow Veggie Chips",
+    "product_description": "Colorful veggie chips made from beets, carrots, and sweet potatoes.",
+    "price": 3.29,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 197
+  },
+  {
+    "id": 24,
+    "product_name": "Portable Air Pump",
+    "product_description": "Compact pump ideal for inflating sports equipment or rafts.",
+    "price": 19.99,
+    "product_category": "Outdoor",
+    "quantity_in_stock": 953
+  },
+  {
+    "id": 25,
+    "product_name": "Glass Food Containers",
+    "product_description": "BPA-free glass containers for safe food storage.",
+    "price": 34.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 748
+  },
+  {
+    "id": 26,
+    "product_name": "Telescope",
+    "product_description": "Beginner telescope for stargazing and exploring.",
+    "price": 159.99,
+    "product_category": "Outdoor",
+    "quantity_in_stock": 996
+  },
+  {
+    "id": 27,
+    "product_name": "Hiking Boots",
+    "product_description": "Comfortable hiking boots for outdoor adventures.",
+    "price": 79.99,
+    "product_category": "Footwear",
+    "quantity_in_stock": 110
+  },
+  {
+    "id": 28,
+    "product_name": "Travel Makeup Organizer",
+    "product_description": "Compact organizer for cosmetics during travel.",
+    "price": 25.99,
+    "product_category": "Beauty",
+    "quantity_in_stock": 908
+  },
+  {
+    "id": 29,
+    "product_name": "Chilli Lime Corn on the Cob",
+    "product_description": "Corn on the cob seasoned with chili and lime for a spicy kick.",
+    "price": 1.99,
+    "product_category": "Food - Vegetable",
+    "quantity_in_stock": 257
+  },
+  {
+    "id": 30,
+    "product_name": "Protein Bar Variety Pack",
+    "product_description": "A pack of assorted nut and protein bars for a quick energy boost.",
+    "price": 12.99,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 258
+  },
+  {
+    "id": 31,
+    "product_name": "Vintage Graphic Tee",
+    "product_description": "Retro-style graphic tee with a soft wash for a vintage feel.",
+    "price": 25.99,
+    "product_category": "Clothing - Tops",
+    "quantity_in_stock": 64
+  },
+  {
+    "id": 32,
+    "product_name": "Portable Speaker Stand",
+    "product_description": "Adjustable stand for portable speakers and devices.",
+    "price": 39.99,
+    "product_category": "Audio",
+    "quantity_in_stock": 821
+  },
+  {
+    "id": 33,
+    "product_name": "Balsamic Vinegar",
+    "product_description": "Rich and tangy balsamic vinegar, perfect for dressings.",
+    "price": 4.99,
+    "product_category": "Food - Condiments",
+    "quantity_in_stock": 368
+  },
+  {
+    "id": 34,
+    "product_name": "Under Desk Footrest",
+    "product_description": "Adjustable footrest for improved comfort while sitting.",
+    "price": 29.99,
+    "product_category": "Office",
+    "quantity_in_stock": 802
+  },
+  {
+    "id": 35,
+    "product_name": "Hummus Variety Pack",
+    "product_description": "A selection of different flavored hummus, great for snacking.",
+    "price": 5.99,
+    "product_category": "Food - Dairy",
+    "quantity_in_stock": 606
+  },
+  {
+    "id": 36,
+    "product_name": "Window A/C Unit",
+    "product_description": "Energy-efficient window air conditioner for cooling.",
+    "price": 299.99,
+    "product_category": "Home Appliances",
+    "quantity_in_stock": 958
+  },
+  {
+    "id": 37,
+    "product_name": "High-Pressure Handheld Shower Head",
+    "product_description": "Shower head designed for a strong spray and complete coverage.",
+    "price": 39.99,
+    "product_category": "Bathroom",
+    "quantity_in_stock": 685
+  },
+  {
+    "id": 38,
+    "product_name": "Basil Tomato Soup",
+    "product_description": "Rich tomato soup flavored with fresh basil, ready to heat up.",
+    "price": 2.99,
+    "product_category": "Food - Canned Soups",
+    "quantity_in_stock": 238
+  },
+  {
+    "id": 39,
+    "product_name": "Baked Potato Chips",
+    "product_description": "Light and crispy baked chips, a healthier snack option.",
+    "price": 2.49,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 67
+  },
+  {
+    "id": 40,
+    "product_name": "Infrared Thermometer Gun",
+    "product_description": "Non-contact thermometer for quick and easy temperature readings.",
+    "price": 29.99,
+    "product_category": "Health",
+    "quantity_in_stock": 108
+  },
+  {
+    "id": 41,
+    "product_name": "Almond Milk",
+    "product_description": "Deliciously creamy almond milk, perfect for smoothies.",
+    "price": 3.29,
+    "product_category": "Food - Dairy",
+    "quantity_in_stock": 843
+  },
+  {
+    "id": 42,
+    "product_name": "Vegan Protein Powder",
+    "product_description": "Plant-based protein powder for post-workout recovery.",
+    "price": 34.99,
+    "product_category": "Health",
+    "quantity_in_stock": 378
+  },
+  {
+    "id": 43,
+    "product_name": "Rustic Italian Bread",
+    "product_description": "Freshly baked rustic bread, perfect for sandwiches or dipping in olive oil.",
+    "price": 3.59,
+    "product_category": "Food - Bakery",
+    "quantity_in_stock": 330
+  },
+  {
+    "id": 44,
+    "product_name": "Chocolate Chip Muffins",
+    "product_description": "Fresh baked chocolate chip muffins for breakfast.",
+    "price": 3.99,
+    "product_category": "Food - Bakery",
+    "quantity_in_stock": 485
+  },
+  {
+    "id": 45,
+    "product_name": "Coconut Milk Yogurt",
+    "product_description": "Creamy yogurt made with coconut milk",
+    "price": 2.99,
+    "product_category": "Food - Dairy Alternatives",
+    "quantity_in_stock": 765
+  },
+  {
+    "id": 46,
+    "product_name": "Handheld Vacuum",
+    "product_description": "Cordless handheld vacuum for quick cleanups.",
+    "price": 79.99,
+    "product_category": "Home Appliances",
+    "quantity_in_stock": 189
+  },
+  {
+    "id": 47,
+    "product_name": "Vegan Taco Seasoning",
+    "product_description": "Spice blend for creating flavorful vegan taco filling.",
+    "price": 2.49,
+    "product_category": "Food - Spices",
+    "quantity_in_stock": 804
+  },
+  {
+    "id": 48,
+    "product_name": "Cranberry Lime Sparkling Water",
+    "product_description": "Refreshing sparkling water infused with cranberry and lime flavors.",
+    "price": 1.5,
+    "product_category": "Food - Beverages",
+    "quantity_in_stock": 375
+  },
+  {
+    "id": 49,
+    "product_name": "Set of Silicone Baking Molds",
+    "product_description": "Flexible molds perfect for baking cakes and pastries.",
+    "price": 15.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 629
+  },
+  {
+    "id": 50,
+    "product_name": "Chili Lime Shrimp",
+    "product_description": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
+    "price": 8.99,
+    "product_category": "Food - Seafood",
+    "quantity_in_stock": 669
+  },
+  {
+    "id": 51,
+    "product_name": "Magnetic Screen Door",
+    "product_description": "Keep bugs out while allowing fresh air in during summer.",
+    "price": 24.99,
+    "product_category": "Outdoor",
+    "quantity_in_stock": 524
+  },
+  {
+    "id": 52,
+    "product_name": "Skincare Set",
+    "product_description": "All-natural skincare set for daily use.",
+    "price": 54.99,
+    "product_category": "Beauty",
+    "quantity_in_stock": 638
+  },
+  {
+    "id": 53,
+    "product_name": "Savory Oatmeal",
+    "product_description": "Oatmeal made with savory spices and vegetables.",
+    "price": 2.49,
+    "product_category": "Food - Breakfast",
+    "quantity_in_stock": 163
+  },
+  {
+    "id": 54,
+    "product_name": "Wild Rice Pilaf",
+    "product_description": "A mix of wild rice with herbs and spices, ready to serve.",
+    "price": 3.79,
+    "product_category": "Food - Grains",
+    "quantity_in_stock": 660
+  },
+  {
+    "id": 55,
+    "product_name": "Energy Protein Bars",
+    "product_description": "Nutritious bars packed with protein for energy",
+    "price": 2.29,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 225
+  },
+  {
+    "id": 56,
+    "product_name": "Teriyaki Chicken Bowl",
+    "product_description": "Ready-to-eat chicken bowl with teriyaki sauce and rice.",
+    "price": 6.49,
+    "product_category": "Food - Prepared Meals",
+    "quantity_in_stock": 365
+  },
+  {
+    "id": 57,
+    "product_name": "Electric Rice Cooker with Steamer",
+    "product_description": "Cook rice and steam vegetables simultaneously for healthy meals.",
+    "price": 49.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 107
+  },
+  {
+    "id": 58,
+    "product_name": "Coconut Chia Pudding",
+    "product_description": "Creamy chia pudding made with coconut milk and topped with mango.",
+    "price": 3.49,
+    "product_category": "Food - Dairy",
+    "quantity_in_stock": 731
+  },
+  {
+    "id": 59,
+    "product_name": "LED Under Cabinet Lighting",
+    "product_description": "Easy-to-install lights to brighten kitchen cabinets and workspaces.",
+    "price": 29.99,
+    "product_category": "Home",
+    "quantity_in_stock": 553
+  },
+  {
+    "id": 60,
+    "product_name": "Roasted Red Pepper Dip",
+    "product_description": "A blend of roasted red peppers and spices, perfect for dipping.",
+    "price": 3.29,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 649
+  },
+  {
+    "id": 61,
+    "product_name": "Sliced Cheese",
+    "product_description": "Assorted sliced cheese, perfect for sandwiches.",
+    "price": 4.49,
+    "product_category": "Food - Dairy",
+    "quantity_in_stock": 944
+  },
+  {
+    "id": 62,
+    "product_name": "Italian Breadsticks",
+    "product_description": "Crispy breadsticks seasoned with herbs and garlic.",
+    "price": 2.49,
+    "product_category": "Food - Bakery",
+    "quantity_in_stock": 403
+  },
+  {
+    "id": 63,
+    "product_name": "Avocado Lime Dressing",
+    "product_description": "Refreshing dressing made with avocado and lime, perfect for salads.",
+    "price": 4.29,
+    "product_category": "Food - Condiments",
+    "quantity_in_stock": 685
+  },
+  {
+    "id": 64,
+    "product_name": "Sweet Potato Tots",
+    "product_description": "Crispy sweet potato bites, delicious as a side or snack.",
+    "price": 4.29,
+    "product_category": "Food - Frozen Foods",
+    "quantity_in_stock": 596
+  },
+  {
+    "id": 65,
+    "product_name": "Fashionable Belt Bag",
+    "product_description": "Trendy belt bag for hands-free carrying.",
+    "price": 34.99,
+    "product_category": "Accessories",
+    "quantity_in_stock": 477
+  },
+  {
+    "id": 66,
+    "product_name": "Pet Grooming Kit",
+    "product_description": "Complete grooming kit for dogs and cats.",
+    "price": 39.99,
+    "product_category": "Pets",
+    "quantity_in_stock": 586
+  },
+  {
+    "id": 67,
+    "product_name": "Smart LED Light Strip",
+    "product_description": "Customizable RGB LED light strip, perfect for mood lighting.",
+    "price": 29.99,
+    "product_category": "Home",
+    "quantity_in_stock": 27
+  },
+  {
+    "id": 68,
+    "product_name": "Watercolor Brush Pens",
+    "product_description": "Set of brush pens for colorful and creative painting.",
+    "price": 19.99,
+    "product_category": "Art Supplies",
+    "quantity_in_stock": 176
+  },
+  {
+    "id": 69,
+    "product_name": "Asian Noodle Salad Kit",
+    "product_description": "A pre-packaged salad kit with noodles and Asian-style dressing.",
+    "price": 4.99,
+    "product_category": "Food - Salads",
+    "quantity_in_stock": 531
+  },
+  {
+    "id": 70,
+    "product_name": "Honey Wheat Pretzels",
+    "product_description": "Crunchy pretzel sticks made with honey and whole wheat.",
+    "price": 3.49,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 884
+  },
+  {
+    "id": 71,
+    "product_name": "Organic Coconut Water",
+    "product_description": "Refreshing coconut water packed with electrolytes for hydration.",
+    "price": 2.79,
+    "product_category": "Food - Beverages",
+    "quantity_in_stock": 911
+  },
+  {
+    "id": 72,
+    "product_name": "Buffalo Wing Sauce",
+    "product_description": "Spicy sauce perfect for chicken wings and dipping.",
+    "price": 3.99,
+    "product_category": "Food - Condiments",
+    "quantity_in_stock": 424
+  },
+  {
+    "id": 73,
+    "product_name": "Honey Sesame Chicken",
+    "product_description": "A delicious chicken dish featuring honey and sesame flavors.",
+    "price": 8.99,
+    "product_category": "Food - Frozen Food",
+    "quantity_in_stock": 222
+  },
+  {
+    "id": 74,
+    "product_name": "Magnetic Phone Case",
+    "product_description": "Stylish case with magnetic closure for smartphones.",
+    "price": 19.99,
+    "product_category": "Accessories",
+    "quantity_in_stock": 937
+  },
+  {
+    "id": 75,
+    "product_name": "Wooden Puzzle Game",
+    "product_description": "Classic wooden puzzle game for kids and adults.",
+    "price": 14.99,
+    "product_category": "Toys",
+    "quantity_in_stock": 561
+  },
+  {
+    "id": 76,
+    "product_name": "Smart Plug",
+    "product_description": "Wi-Fi enabled plug for controlling devices from your smartphone.",
+    "price": 19.99,
+    "product_category": "Smart Home",
+    "quantity_in_stock": 496
+  },
+  {
+    "id": 77,
+    "product_name": "Induction Cooktop",
+    "product_description": "Portable induction cooktop for quick heating.",
+    "price": 89.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 83
+  },
+  {
+    "id": 78,
+    "product_name": "Portable Dog Water Bottle",
+    "product_description": "Convenient water bottle for pets on the go.",
+    "price": 18.99,
+    "product_category": "Pets",
+    "quantity_in_stock": 179
+  },
+  {
+    "id": 79,
+    "product_name": "Portable Grill Cover",
+    "product_description": "Durable cover to protect your grill from the elements.",
+    "price": 24.99,
+    "product_category": "Outdoor",
+    "quantity_in_stock": 751
+  },
+  {
+    "id": 80,
+    "product_name": "Fashionable Belt Bag",
+    "product_description": "Trendy belt bag for hands-free carrying.",
+    "price": 34.99,
+    "product_category": "Accessories",
+    "quantity_in_stock": 807
+  },
+  {
+    "id": 81,
+    "product_name": "Classic White T-Shirt",
+    "product_description": "A timeless wardrobe staple crafted from soft cotton with a perfect fit.",
+    "price": 19.99,
+    "product_category": "Clothing - Tops",
+    "quantity_in_stock": 521
+  },
+  {
+    "id": 82,
+    "product_name": "Roasted Red Pepper Dip",
+    "product_description": "A blend of roasted red peppers and spices, perfect for dipping.",
+    "price": 3.29,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 157
+  },
+  {
+    "id": 83,
+    "product_name": "Beach Cover-Up",
+    "product_description": "Lightweight cover-up perfect for the beach, with a breezy design.",
+    "price": 29.99,
+    "product_category": "Clothing - Swimwear",
+    "quantity_in_stock": 379
+  },
+  {
+    "id": 84,
+    "product_name": "Digital Camera",
+    "product_description": "Compact digital camera with 20MP resolution.",
+    "price": 299.99,
+    "product_category": "Electronics",
+    "quantity_in_stock": 393
+  },
+  {
+    "id": 85,
+    "product_name": "Honey Garlic Shrimp",
+    "product_description": "Shrimp marinated in a honey garlic sauce, ready to cook.",
+    "price": 8.49,
+    "product_category": "Food - Seafood",
+    "quantity_in_stock": 90
+  },
+  {
+    "id": 86,
+    "product_name": "Wooden Blocks",
+    "product_description": "Classic wooden building blocks for toddlers.",
+    "price": 24.99,
+    "product_category": "Toys",
+    "quantity_in_stock": 797
+  },
+  {
+    "id": 87,
+    "product_name": "Roasted Sweet Corn",
+    "product_description": "Sweet corn roasted to perfection for a delightful side.",
+    "price": 1.99,
+    "product_category": "Food - Frozen",
+    "quantity_in_stock": 714
+  },
+  {
+    "id": 88,
+    "product_name": "Fleece Throw Blanket",
+    "product_description": "Super soft fleece blanket, perfect for coziness.",
+    "price": 29.99,
+    "product_category": "Home",
+    "quantity_in_stock": 23
+  },
+  {
+    "id": 89,
+    "product_name": "Portable Solar Charger",
+    "product_description": "Solar-powered charger for smartphones and tablets.",
+    "price": 29.99,
+    "product_category": "Electronics",
+    "quantity_in_stock": 232
+  },
+  {
+    "id": 90,
+    "product_name": "Salt and Pepper Grinder Set",
+    "product_description": "Adjustable grinders for fresh spices at the table.",
+    "price": 19.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 476
+  },
+  {
+    "id": 91,
+    "product_name": "Chicken Breasts",
+    "product_description": "Juicy and tender boneless chicken breasts.",
+    "price": 9.99,
+    "product_category": "Food - Meat",
+    "quantity_in_stock": 263
+  },
+  {
+    "id": 92,
+    "product_name": "USB Wall Charger",
+    "product_description": "Multiple USB ports for charging devices simultaneously.",
+    "price": 19.99,
+    "product_category": "Accessories",
+    "quantity_in_stock": 379
+  },
+  {
+    "id": 93,
+    "product_name": "Pumpkin Ice Cream",
+    "product_description": "Seasonal pumpkin ice cream, perfect for fall.",
+    "price": 4.99,
+    "product_category": "Food - Frozen Foods",
+    "quantity_in_stock": 111
+  },
+  {
+    "id": 94,
+    "product_name": "Truffle Parmesan Fries",
+    "product_description": "Crispy fries tossed in truffle oil and parmesan, a gourmet snack.",
+    "price": 4.99,
+    "product_category": "Food - Snacks",
+    "quantity_in_stock": 639
+  },
+  {
+    "id": 95,
+    "product_name": "Wireless Charging Station",
+    "product_description": "Charge multiple devices with this sleek charging station.",
+    "price": 39.99,
+    "product_category": "Electronics",
+    "quantity_in_stock": 651
+  },
+  {
+    "id": 96,
+    "product_name": "Electric Meat Grinder",
+    "product_description": "Powerful grinder for making sausage and burgers at home.",
+    "price": 89.99,
+    "product_category": "Kitchen",
+    "quantity_in_stock": 314
+  },
+  {
+    "id": 97,
+    "product_name": "Kids' Trampoline",
+    "product_description": "Safe and fun trampoline for children.",
+    "price": 139.99,
+    "product_category": "Toys",
+    "quantity_in_stock": 754
+  },
+  {
+    "id": 98,
+    "product_name": "Spinach Pizza Rolls",
+    "product_description": "Frozen pizza rolls stuffed with spinach and cheese, perfect for snacking.",
+    "price": 4.99,
+    "product_category": "Food - Frozen Foods",
+    "quantity_in_stock": 737
+  },
+  {
+    "id": 99,
+    "product_name": "Coffee Subscription Service",
+    "product_description": "Monthly subscription for freshly roasted coffee delivered to your door.",
+    "price": 29.99,
+    "product_category": "Food",
+    "quantity_in_stock": 289
+  },
+  {
+    "id": 100,
+    "product_name": "Peach Halves (canned)",
+    "product_description": "Sweet peach halves packed in juice, great for desserts.",
+    "price": 2.49,
+    "product_category": "Food - Canned Goods",
+    "quantity_in_stock": 877
+  },
+  {
+    "id": 101,
+    "product_name": "Test Tubes",
+    "product_description": "Test tubes made from glass.",
+    "price": 9.99,
+    "product_category": "Lab",
+    "quantity_in_stock": 83
+  }
+]
