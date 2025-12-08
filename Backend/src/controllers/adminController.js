@@ -1,6 +1,7 @@
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
+import Product from "../Models/productModel.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,29 +14,15 @@ const demoOrdersDataFilePath = path.join(
 let products = JSON.parse(fs.readFileSync(demoDataFilePath, "utf-8"));
 let orders = JSON.parse(fs.readFileSync(demoOrdersDataFilePath, "utf-8"));
 
-export const createProduct = (req, res) => {
+export const createProduct = async (req, res) => {
   const data = req.body;
   console.log(data);
 
-  products.push({
-    id: products.length + 1,
-    ...data,
-  });
+  const productDetails = new Product({ ...data });
 
-  console.log(products);
+  await productDetails.save();
 
-  fs.writeFile(demoDataFilePath, JSON.stringify(products), (err) => {
-    if (err) {
-      console.error(err, "Error occurred while adding product!");
-      return;
-    }
-    console.log("Product added successfully!");
-
-    return res.json({
-      id: products.length,
-      message: "Product added successfully!",
-    });
-  });
+  return res.status(201).json({ message: "Product Created Successfully!" });
 };
 
 export const editProductDetails = (req, res) => {
