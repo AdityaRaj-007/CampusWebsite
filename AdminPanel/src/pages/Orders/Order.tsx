@@ -1,8 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { IndianRupee, Package, ShoppingBag } from "lucide-react";
-import ProductTable from "./ProductTable";
+// import ProductTable from "./ProductTable";
+import OrderTable from "./OrderTable";
 
-const Product = () => {
+const Order = () => {
   return (
     <div className="min-h-screen bg-gray-50/50">
       <nav className="flex items-center space-x-6 border-b bg-white px-6 py-4 shadow-sm mb-6">
@@ -15,13 +16,13 @@ const Product = () => {
         </a>
         <a
           href="/products"
-          className="text-sm font-medium transition-colors hover:text-primary"
+          className="text-sm font-medium text-muted-foreground  transition-colors hover:text-primary"
         >
           Products
         </a>
         <a
           href="/orders"
-          className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+          className="text-sm font-medium transition-colors hover:text-primary"
         >
           Orders
         </a>
@@ -36,7 +37,7 @@ const Product = () => {
       <div className="pl-6 pr-6">
         <header className="mb-8">
           <div>
-            <h1 className="text-3xl font-bold tracking-light">Products</h1>
+            <h1 className="text-3xl font-bold tracking-light">Orders</h1>
           </div>
         </header>
 
@@ -73,10 +74,10 @@ const Product = () => {
             </CardContent>
           </Card>
         </div>
-        <ProductTable />
+        <OrderTable />
       </div>
     </div>
   );
 };
 
-export default Product;
+export default Order;

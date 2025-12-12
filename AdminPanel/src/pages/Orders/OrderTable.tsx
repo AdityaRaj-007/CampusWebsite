@@ -33,18 +33,16 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-interface Products {
+interface Orders {
   _id: string;
-  productName: string;
-  productDescription: string;
-  price: number;
-  productCategory: string;
-  quantityInStock: number;
+  totalAmount: number;
+  status: string;
   createdAt: string;
   updatedAt: string;
+  items: any[];
 }
 
-export const columns: ColumnDef<Products>[] = [
+export const columns: ColumnDef<Orders>[] = [
   {
     id: "select",
     header: ({ table }) => (
@@ -68,31 +66,38 @@ export const columns: ColumnDef<Products>[] = [
     enableHiding: false,
   },
   {
-    accessorKey: "productName",
-    header: "Product Name",
+    accessorKey: "_id",
+    header: "Order",
+    cell: ({ row }) => {
+      const id = String(row.getValue("_id") ?? "");
+
+      return (
+        <div className="font-mono text-xs text-gray-500">
+          #{id.slice(-6).toUpperCase()}
+        </div>
+      );
+    },
+  },
+  {
+    accessorKey: "status",
+    header: "Order Status",
     cell: ({ row }) => (
-      <div className="capitialize">{row.getValue("productName")}</div>
+      <div className="capitalize">{row.getValue("status")}</div>
     ),
   },
   {
-    accessorKey: "productCategory",
-    header: "Product Category",
-    cell: ({ row }) => (
-      <div className="capitialize">{row.getValue("productCategory")}</div>
-    ),
-  },
-  {
-    accessorKey: "price",
+    accessorKey: "totalAmount",
     header: ({ column }) => (
       <Button
         variant="ghost"
         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
       >
-        Price <ArrowUpDown />
+        Order Amount
+        <ArrowUpDown />
       </Button>
     ),
     cell: ({ row }) => {
-      const price = parseFloat(row.getValue("price"));
+      const price = parseFloat(row.getValue("totalAmount"));
 
       const formattedPrice = new Intl.NumberFormat("en-IN", {
         style: "currency",
@@ -103,28 +108,39 @@ export const columns: ColumnDef<Products>[] = [
     },
   },
   {
-    accessorKey: "quantityInStock",
-    header: "Quantity In Stock",
-    cell: ({ row }) => <div>{row.getValue("quantityInStock")}</div>,
+    accessorKey: "createdAt",
+    header: "Order Date",
+    cell: ({ row }) => {
+      const formatDate = (dateString: string) => {
+        return new Date(dateString).toLocaleDateString("en-IN", {
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+        });
+      };
+      return (
+        <div className="text-sm">{formatDate(row.getValue("createdAt"))}</div>
+      );
+    },
   },
   {
     id: "actions",
     enableHiding: false,
     cell: ({ row }) => {
-      const product = row.original;
-      console.log(product);
+      const order = row.original;
+      console.log(order);
       return (
         <DropdownMenu>
-          <DropdownMenuTrigger>
+          <DropdownMenuTrigger asChild>
             <Button className="h-8 w-8 p-0">
               <MoreHorizontal />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuItem>
-              <a href={`/editProduct/${product._id}`}>Edit Product</a>
+              <a href={`/editOrder/${order._id}`}>Edit Order</a>
             </DropdownMenuItem>
-            <DropdownMenuItem>Delete Product</DropdownMenuItem>
+            {/* <DropdownMenuItem>Delete Product</DropdownMenuItem> */}
           </DropdownMenuContent>
         </DropdownMenu>
       );
@@ -132,8 +148,8 @@ export const columns: ColumnDef<Products>[] = [
   },
 ];
 
-const ProductTable = () => {
-  const [products, setProducts] = useState<Products[]>([]);
+const OrderTable = () => {
+  const [orders, setOrders] = useState<Orders[]>([]);
 
   const [sorting, setSorting] = useState<SortingState>([]);
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
@@ -141,20 +157,20 @@ const ProductTable = () => {
   const [rowSelection, setRowSelection] = useState({});
 
   useEffect(() => {
-    const getAllProducts = async () => {
-      const response = await fetch("http://127.0.0.1:3000/api/admin/products");
+    const getAllOrders = async () => {
+      const response = await fetch("http://127.0.0.1:3000/api/admin/orders");
 
       const data = await response.json();
-
-      setProducts(data);
-      console.log(products);
+      console.log(data);
+      setOrders(data);
+      console.log(orders);
     };
 
-    getAllProducts();
+    getAllOrders();
   }, []);
 
   const table = useReactTable({
-    data: products,
+    data: orders,
     columns,
     state: {
       sorting,
@@ -177,15 +193,14 @@ const ProductTable = () => {
     <div className="w-full">
       <div className="flex items-center py-4">
         <Input
-          placeholder="Filter Products..."
-          value={
-            (table.getColumn("productName")?.getFilterValue() as string) ?? ""
-          }
+          placeholder="Filter Orders..."
+          value={(table.getColumn("status")?.getFilterValue() as string) ?? ""}
           onChange={(event) =>
-            table.getColumn("productName")?.setFilterValue(event.target.value)
+            table.getColumn("status")?.setFilterValue(event.target.value)
           }
           className="max-w-sm"
         />
+
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="ml-auto">
@@ -256,7 +271,7 @@ const ProductTable = () => {
                   colSpan={columns.length}
                   className="h-24 text-center"
                 >
-                  No Products...
+                  No Orders...
                 </TableCell>
               </TableRow>
             )}
@@ -291,4 +306,4 @@ const ProductTable = () => {
   );
 };
 
-export default ProductTable;
+export default OrderTable;
