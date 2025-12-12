@@ -2,6 +2,7 @@ import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import Product from "../Models/productModel.js";
+import Order from "../Models/orderModel.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,6 +14,11 @@ const demoOrdersDataFilePath = path.join(
 
 let products = JSON.parse(fs.readFileSync(demoDataFilePath, "utf-8"));
 let orders = JSON.parse(fs.readFileSync(demoOrdersDataFilePath, "utf-8"));
+
+export const getAllProducts = async (req, res) => {
+  const products = await Product.find({});
+  return res.json(products);
+};
 
 export const createProduct = async (req, res) => {
   const data = req.body;
@@ -57,8 +63,9 @@ export const deleteProduct = (req, res) => {
   });
 };
 
-export const getAllOrders = (req, res) => {
-  res.json(orders);
+export const getAllOrders = async (req, res) => {
+  const orders = await Order.find({});
+  res.status(200).json(orders);
 };
 
 export const updateOrderStatus = (req, res) => {

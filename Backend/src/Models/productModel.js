@@ -7,7 +7,7 @@ export const productSchema = new Schema(
     productDescription: { type: String, required: true },
     price: { type: Number, required: true },
     productCategory: { type: String, required: true },
-    quantityInStock: { type: String, required: true },
+    quantityInStock: { type: Number, required: true },
   },
   { timestamps: true }
 );

@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { router as userRouter } from "./Routes/userRoutes.js";
 import { router as adminRouter } from "./Routes/adminRoutes.js";
 import { connectDB } from "./utils/dbConnection.js";
@@ -8,6 +9,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 connectDB();
 

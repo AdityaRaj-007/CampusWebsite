@@ -4,10 +4,13 @@ import {
   deleteProduct,
   editProductDetails,
   getAllOrders,
+  getAllProducts,
   updateOrderStatus,
 } from "../controllers/adminController.js";
 
 export const router = express.Router();
+
+router.get("/products", getAllProducts);
 
 router.post("/product", createProduct);
 
